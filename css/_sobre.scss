@@ -1,0 +1,36 @@
+.sobre{
+    background-color: #000000;
+    text-align: center;
+    //padding: 20px;
+    padding-top: 45px;
+    h2{
+        color: white;
+        font-size: 3em;
+        font-weight: bold;
+    }
+
+.container__sobre{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+
+  
+
+    .sobre__img{
+        width: 60%;
+        text-align: center;
+        padding-top: 130px;
+    }
+    .sobre__texto{
+        width: 40%;
+        text-align: start;
+
+        p{
+            color: #FFFFFFFF;
+            font-weight: bold;
+            font-size: 1.5rem;
+        }
+    }
+}
+
+}

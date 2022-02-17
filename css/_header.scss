@@ -1,0 +1,32 @@
+header {
+ position: fixed;
+ top: 0;
+  width: 100%;
+  background-color: white;
+  box-shadow: 2px 2px 40px green;
+  .cabecalho {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+
+    .img__logo{
+        width: 80px;
+        height: 45px;
+    }
+    .info__cabecalho {
+      ul {
+        display: flex;
+       
+        li {
+          list-style: none;
+          padding-left: 2.5rem;
+          padding-top: 15px;
+          a {
+            text-decoration: none;
+            color: green;
+          }
+        }
+      }
+    }
+  }
+}

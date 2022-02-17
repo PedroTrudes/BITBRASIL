@@ -1,0 +1,68 @@
+.atalhos{
+    text-align: center;
+    padding-top: 30px;
+    background-color: #0e0d0d;
+    //background-color: #f3f0f0;
+    
+
+    h2{
+        font-size: 3em;
+        font-weight: bold;
+        color: #fff;
+    }
+
+    ul{
+        padding-top: 55px;
+        display: flex;
+        justify-content: space-evenly;
+        padding-bottom: 25px;
+
+        li{
+            border-radius: 10px;
+            padding: 6px;
+            transition: 1.5s;
+
+            &:hover{
+                border-radius: 15px;
+                box-shadow: 1px 1px 30px #FFFFFFFF;
+            }
+
+            &#google{
+                background-color: #00A94F;
+            }
+            &#facebook{
+                background-color: #4A6EA9;
+            }
+            &#twitter{
+                background-color: #62C8F8;
+            }
+            &#yahoo{
+                background-color: #E83032;
+            }
+            &#gmail{
+                background-color: #EC0C0C;
+            }
+            &#outlook{
+                background-color: #F57F20;
+            }
+            &#uol{
+                background-color: #FF9400;
+            }
+            &#terra{
+                background-color: #F99D1C;
+            }
+            &#ig{
+                background-color: #00AEEF;
+            }
+            &#esporte{
+                background-color: #618E3E;
+            }
+            &#bol{
+                background-color: #029287;
+            }
+            &#youtube{
+                background-color: #C8312B;
+            }
+        }
+    }
+}

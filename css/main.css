@@ -1,0 +1,430 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: white;
+  -webkit-box-shadow: 2px 2px 40px green;
+          box-shadow: 2px 2px 40px green;
+}
+
+header .cabecalho {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 10px;
+}
+
+header .cabecalho .img__logo {
+  width: 80px;
+  height: 45px;
+}
+
+header .cabecalho .info__cabecalho ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header .cabecalho .info__cabecalho ul li {
+  list-style: none;
+  padding-left: 2.5rem;
+  padding-top: 15px;
+}
+
+header .cabecalho .info__cabecalho ul li a {
+  text-decoration: none;
+  color: green;
+}
+
+.banner__principal {
+  height: 400px;
+  width: 100%;
+  padding-top: 55px;
+  background-color: #000100;
+}
+
+.banner__principal .banner__img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.banner__principal .banner__img img {
+  width: 30%;
+}
+
+.banner__principal .banner__img h1 {
+  font-size: 90px;
+  color: white;
+  -webkit-box-shadow: 20px 20px 20px green;
+          box-shadow: 20px 20px 20px green;
+}
+
+.atalhos {
+  text-align: center;
+  padding-top: 30px;
+  background-color: #0e0d0d;
+}
+
+.atalhos h2 {
+  font-size: 3em;
+  font-weight: bold;
+  color: #fff;
+}
+
+.atalhos ul {
+  padding-top: 55px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding-bottom: 25px;
+}
+
+.atalhos ul li {
+  border-radius: 10px;
+  padding: 6px;
+  -webkit-transition: 1.5s;
+  transition: 1.5s;
+}
+
+.atalhos ul li:hover {
+  border-radius: 15px;
+  -webkit-box-shadow: 1px 1px 30px #FFFFFFFF;
+          box-shadow: 1px 1px 30px #FFFFFFFF;
+}
+
+.atalhos ul li#google {
+  background-color: #00A94F;
+}
+
+.atalhos ul li#facebook {
+  background-color: #4A6EA9;
+}
+
+.atalhos ul li#twitter {
+  background-color: #62C8F8;
+}
+
+.atalhos ul li#yahoo {
+  background-color: #E83032;
+}
+
+.atalhos ul li#gmail {
+  background-color: #EC0C0C;
+}
+
+.atalhos ul li#outlook {
+  background-color: #F57F20;
+}
+
+.atalhos ul li#uol {
+  background-color: #FF9400;
+}
+
+.atalhos ul li#terra {
+  background-color: #F99D1C;
+}
+
+.atalhos ul li#ig {
+  background-color: #00AEEF;
+}
+
+.atalhos ul li#esporte {
+  background-color: #618E3E;
+}
+
+.atalhos ul li#bol {
+  background-color: #029287;
+}
+
+.atalhos ul li#youtube {
+  background-color: #C8312B;
+}
+
+.sobre {
+  background-color: #000000;
+  text-align: center;
+  padding-top: 45px;
+}
+
+.sobre h2 {
+  color: white;
+  font-size: 3em;
+  font-weight: bold;
+}
+
+.sobre .container__sobre {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 30px;
+}
+
+.sobre .container__sobre .sobre__img {
+  width: 60%;
+  text-align: center;
+  padding-top: 130px;
+}
+
+.sobre .container__sobre .sobre__texto {
+  width: 40%;
+  text-align: start;
+}
+
+.sobre .container__sobre .sobre__texto p {
+  color: #FFFFFFFF;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.parcerias {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+  background-color: #000000;
+}
+
+.parcerias .parceria {
+  background-color: white;
+  width: 40%;
+  height: 220px;
+  margin: 20px 10px;
+  -webkit-box-shadow: 0px 0px 25px #a09e9e;
+          box-shadow: 0px 0px 25px #a09e9e;
+  border-radius: 2%;
+  cursor: pointer;
+  -webkit-transition: all 1s linear;
+  transition: all 1s linear;
+}
+
+.parcerias .parceria:hover {
+  -webkit-box-shadow: 0px 0px 25px white;
+          box-shadow: 0px 0px 25px white;
+}
+
+.parcerias .parceria img {
+  width: 100%;
+  border-radius: 2%;
+}
+
+.contatos {
+  padding: 35px 0;
+  background-color: black;
+}
+
+.contatos .container__contatos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.contatos .container__contatos .infos__contatos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 60%;
+}
+
+.contatos .container__contatos .infos__contatos p {
+  color: #fff;
+  font-size: 30px;
+  margin: 20px 0px;
+}
+
+.contatos .container__contatos .infos__contatos .linhas {
+  border: 1px solid white;
+  width: 100%;
+}
+
+.contatos .container__contatos .email__contatos {
+  width: 30%;
+}
+
+.contatos .container__contatos .email__contatos form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 10px;
+}
+
+.contatos .container__contatos .email__contatos form label {
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.contatos .container__contatos .email__contatos form #nome {
+  height: 25px;
+  text-align: center;
+  color: #09dd09;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: none;
+  margin: 5px 10px;
+  -webkit-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+}
+
+.contatos .container__contatos .email__contatos form #nome:hover {
+  border: 1px solid #09dd09;
+  border-radius: 15px;
+}
+
+.contatos .container__contatos .email__contatos form #email {
+  text-align: center;
+  height: 25px;
+  color: #09dd09;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: none;
+  margin: 5px 10px;
+  -webkit-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+}
+
+.contatos .container__contatos .email__contatos form #email:hover {
+  border: 1px solid #09dd09;
+  border-radius: 15px;
+}
+
+.contatos .container__contatos .email__contatos form #assunto {
+  margin: 5px 10px;
+}
+
+.contatos .container__contatos .email__contatos form button {
+  margin-top: 15px;
+  height: 30px;
+  width: 95%;
+  background-color: green;
+  border: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  -webkit-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+  border-radius: 19px;
+  margin: 5px 10px;
+}
+
+.contatos .container__contatos .email__contatos form button:hover {
+  background-color: #383838;
+  color: white;
+  border: 1px solid green;
+}
+
+.mapa {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 25px 0px;
+  background-color: black;
+}
+
+.rodape {
+  height: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #0E0D0D;
+  color: #fff;
+  font-weight: bold;
+  font-size: 10px;
+}
+/*# sourceMappingURL=main.css.map */

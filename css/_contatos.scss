@@ -1,0 +1,104 @@
+.contatos {
+    padding: 35px 0;
+    background-color: black;
+  .container__contatos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    .infos__contatos{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 60%;
+        
+        p{
+            color: #fff;
+            font-size: 30px;
+            margin: 20px 0px;
+
+           
+        }
+        .linhas{
+            border: 1px solid white;
+            width: 100%;
+        }
+
+    }
+
+
+    .email__contatos{
+        width: 30%;
+        form{
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+
+        
+        label{
+            font-size: 20px;
+            font-weight: bold;
+            color: #fff;
+        }
+        #nome {
+            height: 25px;
+            text-align: center;
+            color: rgb(9, 221, 9);
+            font-weight: bold;
+            text-transform: uppercase;
+            border: none;
+            margin: 5px 10px;
+            transition: .5s ease-in-out;
+            &:hover{
+                border: 1px solid rgb(9, 221, 9);;
+                border-radius: 15px;
+            }
+        }
+
+        #email{
+            text-align: center;
+            height: 25px;
+            color: rgb(9, 221, 9);
+            font-weight: bold;
+            text-transform: uppercase;
+            border: none;
+            margin: 5px 10px;
+            transition: .5s ease-in-out;
+
+            &:hover{
+                border: 1px solid rgb(9, 221, 9);;
+                border-radius: 15px;
+            }
+
+
+        }
+
+        #assunto{
+            margin: 5px 10px;
+        }
+
+        button{
+            margin-top: 15px;
+            height: 30px;
+            width: 95%;
+            background-color: green;
+            border: none;
+            text-transform: uppercase;
+            font-weight: bold;
+            transition: .5s ease-in-out;
+            border-radius: 19px;
+            margin: 5px 10px;
+
+
+
+            &:hover{
+                background-color: rgb(56, 56, 56);
+                color: white;
+                border: 1px solid green;
+            }
+        }
+
+    }
+    }
+  }
+}

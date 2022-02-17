@@ -1,0 +1,30 @@
+.parcerias{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: #000000;
+
+
+
+    .parceria{
+        background-color: white;
+        width: 40%;
+        height: 220px;
+        margin: 20px 10px;
+        box-shadow: 0px 0px 25px rgb(160, 158, 158);
+        border-radius: 2%;
+        cursor: pointer;
+        transition: all 1s linear;
+
+        &:hover{
+            box-shadow: 0px 0px 25px white;
+        }
+
+        img{
+            width: 100%;
+            border-radius: 2%;
+
+        }
+    }
+}
